@@ -1,7 +1,7 @@
 # MotorBridge
 MotorBridge.py now needs smbus2 for i2c use for the Beagleboard.org boards...
 
-# smbus2 and __init__.py have been added
+# smbus2.py has been added
 Now...we can alter line 302 in the smbus2.py file to fit our needs.
 
     filepath = "/dev/i2c-2".format(bus)
