@@ -1,7 +1,7 @@
  # * Copyright (c) 2015 seeed technology inc.
  # * Author      : Jiankai Li
  # * Create Time:  Nov 2015
- # * Change Log : Seth Nowlin Dec. 2019 w/ help from #beagle at Freenode
+ # * Change Log : Seth Dec. 2019 w/ help from #beagle at Freenode
 
 # FileName : MotorBridge.py
 # by Jiankai.li
