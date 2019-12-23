@@ -29,12 +29,12 @@ if __name__=="__main__":
         motor.DCMotorMove(1, 1, 90)
         #motor.DCMotorMove(2, 2, 90)
         time.sleep(3)
-    print("Making Things Happen Again!")
+        print("Making Things Happen Again!")
 
-    motor = MotorBridgeI.MotorBridgeCape()
+    #motor = MotorBridgeI.MotorBridgeCape()
     motor.DCMotorInit(1, 0)
     for i in range(0, 1):
         motor.DCMotorMove(1, 2, 0)
         time.sleep(10)
-
+        print("We are done for now!")
 
