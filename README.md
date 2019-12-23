@@ -1,6 +1,12 @@
 # MotorBridge
 MotorBridge.py now needs smbus2 for i2c use for the Beagleboard.org boards...
 
+    https://github.com/kplindegaard/smbus2
+
+This library can be installed with: 
+
+    pip3 install smbus2. 
+
 # smbus2.py has been added
 Now...we can alter line 302 in the smbus2.py file to fit our needs.
 
