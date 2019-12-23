@@ -216,7 +216,7 @@ class MotorBridgeCape:
 
     # MoveSteps > 0 CW
     # MoveSteps < 0 CCW
-    # StepDelayTime : delay time for every step. uint us
+    # StepDelayTime : delay time for every step. unit us
     def StepperMotorAMove(self, MoveSteps, StepDelayTime):
         if MoveSteps > 0:
             WriteByte(TB_1A_DIR, TB_CW)   #CW

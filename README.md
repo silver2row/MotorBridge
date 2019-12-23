@@ -28,4 +28,8 @@ Look at the source for uMoveI.py for an update to the source. It is simplistic
 and approachable. If it keeps running, just run the source and Control-C before
 the software starts to cancel the motor from moving.
 
+    uMoveI.py will initiate your motor with time, make several turns, and 
+    then turn in the opposite direction and then stop for about 10 seconds 
+    before stopping the program. Enjoy!
+
 Seth
